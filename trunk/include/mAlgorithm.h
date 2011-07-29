@@ -61,6 +61,8 @@ std::vector<T> Split(const T& s,
     return result;
 }
 
+std::vector<std::string> SplitStr(const std::string& str, char match);
+
 }
 
 #endif
